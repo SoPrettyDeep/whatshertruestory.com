@@ -3,6 +3,8 @@
 <head>
 <title>WhatsHerTrueStory.com</title>
 
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <style>
@@ -20,6 +22,7 @@ body {
 /* Header/Blog Title */
 .header {
     padding: 30px;
+	font-family: Merienda;
     font-size: 30px;
     text-align: center;
     background: white;
@@ -63,6 +66,23 @@ body {
     }
 }
 
+.img2 {
+    width: 100%;
+    height: auto;
+	padding: 20px;
+	background-image: url('img2.jpg'); 
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img2 { 
+		background-image: url('img2.jpg'); 
+		background-size: contain;
+		background-repeat: no-repeat;
+    }
+}
+
 /* Add a card effect for articles */
 .card {
      background-color: white;
@@ -98,24 +118,24 @@ body {
 <body>
 
 <div class="header">
-  <h2>What is her true story</h2>
+  <h2>What's Her True Story</h2>
+  <h5 style="font-size:0.6em;">A journal of an expat girl in Shanghai, having a well paying job, but missing her husband</h5>
 </div>
+
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>A journal of an expat girl in Shanghai, having a well paying job, but missing her husband</h2>
-      <h5>Shanghai, Sep 19, 2018</h5>
+      <h5>Sep 19, 2018, Shanghai</h5>
       <div class="img1" style="height:200px;"></div>
       <p>She is writing knowing that she will not see her husband for the next 26 days, and already there has been more than double that she didn’t see him. She has a great job that she sometimes hates. She has great colleagues that can be good friends, but also a burden. She is not alone in this big city, although everyone whispers that she is. No husband, no relatives here, they say. She didn’t feel any different with her family near, but she doesn’t say it. She feels more herself without them, no point in mentioning. It is not that she doesn’t like her big family. Two sisters, parents, four dogs, an aunt, a gramma and other near and far relatives. She just doesn't miss them. Doesn’t miss explaining each and every step of what she is doing. Doesn’t miss coffees each Tuesday (or possibly Wednesday depending on their occupations). Doesn’t miss the silences and unspoken words, complainings and expectations. She has warmth inside which reminds her of the true family values. She could sometimes feel it with them, but mostly she feels it in her heart. So, she is not alone. She carries her family in her heart.
 </p>
     </div>
     
 	<div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
+      <h5>Sep 20, 2018, Shanghai</h5>
+      <div class="img2" style="height:200px;"></div>
+      <p>Walking around Shanghai, going to the subway surrounded with Asians, she feels she stepped into one of those dramas from early morning. She knows she looks different and will never be one of them. She is on a well paying position in one international, well-known IT company despite being young and looking even younger. She is learning Chinese and will have an HSK1 exam in two weeks. She has friends here who help her when she cuts her finger and needs to go to the hospital. And still, she knows if she was company’s CEO speaking excellent Chinese who spent in Shanghai few decades instead of few months, she will never be one of them. And still… It doesn’t feel bad. It feels like watching from afar and really seeing. Like being on an unknown planet where you are one of exotic species admired and appreciated, and still given space to feel completely and utterly free.</p>
     </div>
   </div>
   
